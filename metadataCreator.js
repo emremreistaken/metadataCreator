@@ -1,8 +1,9 @@
 const fs = require('fs');
 
+const collectionName = 'Name';
 const collectionSize = 11;
-const imageIpfs = 'ipfs://ipfsCid/';
-const collectionName = 'Some Name';
+
+const imageIpfs = 'ipfs://cidOfCollectionImages/';
 const description = 'Description';
 
 for (num = 1; num <= collectionSize; num++) {
