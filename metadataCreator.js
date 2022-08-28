@@ -16,6 +16,7 @@ for (num = 1; num <= collectionSize; num++) {
 	// convert JSON object to string
 	const data = JSON.stringify(metadata);
 
+	fs.mkdirSync('metadata', { recursive: true });
 	// write JSON string to a file
 	fs.writeFile(`./metadata/${num}.json`, data, (err) => {
 		if (err) {
