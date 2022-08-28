@@ -1,9 +1,9 @@
-<h1> In directory, use </h1>
+<h1> In directory, type </h1>
 
 npm install
 
-<h1> then </h1>
+<h1>; then type</h1>
 
-node creator.js
+node metadataCreator.js
 
 <h1>to create your metadata.</h1>
